@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test Login Page(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.practice.turing.testcases.TuringLoginPageTest">
+        <methods>
+          <include name="verifyBankName"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- com.practice.turing.testcases.TuringLoginPageTest -->
+    </classes>
+  </test> <!-- Test Login Page(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 33.184 s <<< FAILURE! - in TestSuite
+com.practice.turing.testcases.TuringLoginPageTest.verifyBankName  Time elapsed: 3.174 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //p[contains(text(),'RAJKOT PEOPLES CO OPERATIVE BANK LTD')])] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//p[contains(text(),'RAJKOT PEOPLES CO OPERATIVE BANK LTD')])]' is not a valid XPath expression.
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BSG-LAPTOP-53', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\lipsas\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 30e9b86890d182d97f2a66c380e3e4a0
+*** Element info: {Using=xpath, value=//p[contains(text(),'RAJKOT PEOPLES CO OPERATIVE BANK LTD')])]}
+	at com.practice.turing.testcases.TuringLoginPageTest.verifyBankName(TuringLoginPageTest.java:39)
+
