@@ -8,3 +8,5 @@ public  TuringHomePageTest(){
 			turingHomePage= new TuringHomePage();
 			turingLoginPage.login(prop.getProperty("username"),prop.getProperty("password"));}
 		
+		//testcases completed
+		//test is not completed
